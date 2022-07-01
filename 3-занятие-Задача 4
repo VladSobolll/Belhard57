@@ -1,0 +1,4 @@
+# a = input("Введите число: ")
+# b = input("Введите число: ")
+# c = input("Введите число: ")
+# print(a.isdigit(), b.isdigit(), c.isdigit())
