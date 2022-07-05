@@ -1,0 +1,5 @@
+text = input("Ввод текста")
+a = {}
+for t in text:
+    a[t] = text.count(t)
+print(a)
