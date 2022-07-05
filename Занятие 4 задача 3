@@ -1,0 +1,11 @@
+amount_keys = int(input("Enter numbers of keys:"))
+dct = {}
+
+for key in range(amount_keys):
+    name = input('Введите имя')
+    email = input('Введите @mail ')
+    dct[key]= {
+        "Введите имя":name,
+        "Введите @mail":email,
+    }
+print(dct)
